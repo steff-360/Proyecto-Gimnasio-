@@ -112,7 +112,7 @@ Más detalle en [docs/04_arquitectura.md](docs/04_arquitectura.md) y [docs/03_mo
 - [Pruebas ejecutadas y pendientes](docs/06_pruebas.md)
 - [Guion del video](docs/07_presentacion.md)
 
-**GitHub Projects:** la configuración propuesta, backlog, fechas de los sprints y Definition of Done están en [docs/05_scrum.md](docs/05_scrum.md). El tablero v2 todavía debe crearse y vincularse cuando haya una sesión GitHub autenticada. Las fechas son prospectivas y no equivalen a evidencia de ceremonias realizadas. **PDF Scrum y video:** siguen pendientes de adjuntar/enlazar; no hay evidencia de retrospectivas reales todavía.
+**GitHub Projects:** el tablero Scrum está creado, público y vinculado al repositorio. Accesible en [github.com/users/steff-360/projects/2](https://github.com/users/steff-360/projects/2). Contiene las 25 historias de usuario (HU01–HU25) con etiquetas de área, prioridad y sprint. La planeación completa está en [docs/05_scrum.md](docs/05_scrum.md). Las fechas son prospectivas; las ceremonias se registrarán conforme ocurran. **PDF Scrum y video:** pendientes de adjuntar/enlazar en Sprint 4 (16–27 nov 2026).
 
 ## Créditos
 

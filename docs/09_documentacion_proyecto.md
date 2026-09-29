@@ -180,7 +180,7 @@ No equivale a pruebas de integración: aún se debe ejecutar el flujo completo c
 - Faltan edición/desactivación de planes nutricionales y administración de alimentos.
 - Faltan cobros automáticos y asociación completa de pagos con mensualidades/sesiones.
 - Faltan pruebas de integración reales con MySQL.
-- Scrum tiene backlog, criterios y calendario prospectivo en `05_scrum.md`; queda crear/vincular el tablero GitHub Projects y capturar las ceremonias reales conforme ocurran.
+- Scrum: el tablero GitHub Projects v2 está creado y público en [github.com/users/steff-360/projects/2](https://github.com/users/steff-360/projects/2), con las 25 historias de usuario vinculadas. La planeación completa está en `05_scrum.md`. Las ceremonias se registrarán conforme ocurran.
 - No se ha adjuntado el PDF Scrum según plantilla ni publicado/enlazado el video de máximo 7 minutos.
 - La privacidad del repositorio y la invitación al trainer deben verificarse en GitHub.
 
