@@ -15,4 +15,4 @@ Node.js con módulos ES, MySQL y `mysql2/promise`, Inquirer, Chalk y bcryptjs. N
 - Cliente: no cuenta con inicio de sesión en esta versión.
 
 ## Fuera de alcance actual
-Aplicación web/móvil, pagos bancarios e inicio de sesión de clientes. La referencia de fotos solo acepta ruta/URL, no carga archivos.
+Aplicación web/móvil, pagos bancarios e inicio de sesión de clientes. 
