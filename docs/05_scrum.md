@@ -7,7 +7,7 @@ Plan de trabajo preparado el **28 de septiembre de 2026**. El tablero GitHub Pro
 | Dato | Enlace |
 |---|---|
 | **Repositorio** | [github.com/steff-360/Proyecto-Gimnasio-](https://github.com/steff-360/Proyecto-Gimnasio-) |
-| **Tablero GitHub Projects** | [github.com/users/steff-360/projects/2](https://github.com/users/steff-360/projects/2) ✅ Público |
+| **Tablero GitHub Projects** | [github.com/users/steff-360/projects/2](https://github.com/users/steff-360/projects/2)  Público |
 | **Documento Scrum** | [docs/05_scrum.md](https://github.com/steff-360/Proyecto-Gimnasio-/blob/main/docs/05_scrum.md) |
 
 ---
@@ -16,7 +16,7 @@ Plan de trabajo preparado el **28 de septiembre de 2026**. El tablero GitHub Pro
 
 Desarrollar y entregar una **CLI Node.js mantenible** para que un gimnasio administre clientes, planes, contratos, progreso físico, nutrición y finanzas, con validación, autorización y persistencia consistente.
 
-### ⚠️ Decisión técnica pendiente (bloquea aceptación)
+### Decisión técnica pendiente (bloquea aceptación)
 
 El enunciado solicita MongoDB con el driver `mongodb`; la implementación actual persiste en MySQL con `mysql2`. En el Sprint 1 el Product Owner debe obtener **aprobación escrita del docente** para conservar MySQL, o abrir la migración a MongoDB con transacciones reales sobre un replica set. No declarar cumplido el requisito de base de datos hasta resolver esta decisión.
 
@@ -34,12 +34,12 @@ Proyecto individual — Stefani Sánchez asume los tres roles Scrum:
 
 ---
 
-## Configuración de GitHub Projects ✅
+## Configuración de GitHub Projects 
 
 **Project v2** creado bajo la cuenta `steff-360`:
 
 - **Nombre:** Gestión de Gimnasio - Desarrollo Scrum
-- **Visibilidad:** Público ✅
+- **Visibilidad:** Público
 - **URL:** [https://github.com/users/steff-360/projects/2](https://github.com/users/steff-360/projects/2)
 - **Issues vinculadas:** 25 historias de usuario (HU01–HU25)
 - **Etiquetas configuradas:** 21 etiquetas de área, tipo, prioridad y sprint
@@ -75,33 +75,32 @@ Proyecto individual — Stefani Sánchez asume los tres roles Scrum:
 
 | ID | Issue | Historia de usuario | Prioridad | Estado | Sprint |
 |---|---|---|---|---|---|
-| HU01 | [#23](https://github.com/steff-360/Proyecto-Gimnasio-/issues/23) | Inicializar proyecto Node.js con módulos y scripts reproducibles | P1 | ✅ Implementado | Sprint 4 |
-| HU02 | [#25](https://github.com/steff-360/Proyecto-Gimnasio-/issues/25) | **[BLOQUEANTE]** Confirmar tecnología de persistencia aprobada | P0 | 🔴 Bloqueado | Sprint 1 |
-| HU03 | [#27](https://github.com/steff-360/Proyecto-Gimnasio-/issues/27) | Iniciar sesión con credenciales seguras en la CLI | P1 | 🔶 Parcial | Sprint 3 |
-| HU04 | [#29](https://github.com/steff-360/Proyecto-Gimnasio-/issues/29) | Permisos explícitos por rol para limitar operaciones sensibles | P1 | 🔶 Parcial | Sprint 1 |
-| HU05 | [#30](https://github.com/steff-360/Proyecto-Gimnasio-/issues/30) | Crear, modificar y desactivar usuarios del gimnasio | P2 | ⬜ Pendiente | Sprint 1 |
-| HU06 | [#31](https://github.com/steff-360/Proyecto-Gimnasio-/issues/31) | Registrar clientes con datos validados | P1 | ✅ Implementado | Sprint 4 |
-| HU07 | [#32](https://github.com/steff-360/Proyecto-Gimnasio-/issues/32) | Buscar y listar clientes | P1 | ✅ Implementado | Sprint 4 |
-| HU08 | [#33](https://github.com/steff-360/Proyecto-Gimnasio-/issues/33) | Actualizar y desactivar clientes conservando historial | P1 | ✅ Implementado | Sprint 4 |
-| HU09 | [#34](https://github.com/steff-360/Proyecto-Gimnasio-/issues/34) | Crear y mantener planes de entrenamiento | P1 | 🔶 Parcial | Sprint 3 |
-| HU10 | [#35](https://github.com/steff-360/Proyecto-Gimnasio-/issues/35) | Asignar plan a cliente creando contrato automáticamente | P1 | 🔶 Parcial | Sprint 1 |
-| HU11 | [#36](https://github.com/steff-360/Proyecto-Gimnasio-/issues/36) | Renovar, finalizar o cancelar contratos | P1 | 🔶 Parcial | Sprint 1 |
-| HU12 | [#37](https://github.com/steff-360/Proyecto-Gimnasio-/issues/37) | Registrar avances físicos semanales del cliente | P1 | 🔶 Parcial | Sprint 2 |
-| HU13 | [#38](https://github.com/steff-360/Proyecto-Gimnasio-/issues/38) | Consultar y eliminar registros de progreso físico | P1 | 🔶 Parcial | Sprint 2 |
-| HU14 | [#39](https://github.com/steff-360/Proyecto-Gimnasio-/issues/39) | Planificar alimentación y registrar alimentos para nutrición | P1 | 🔶 Parcial | Sprint 2 |
-| HU15 | [#40](https://github.com/steff-360/Proyecto-Gimnasio-/issues/40) | Registrar ingresos y egresos asociados a clientes/contratos | P1 | 🔶 Parcial | Sprint 2 |
-| HU16 | [#41](https://github.com/steff-360/Proyecto-Gimnasio-/issues/41) | Consultar balance por fechas y cliente | P1 | ✅ Implementado | Sprint 4 |
-| HU17 | [#42](https://github.com/steff-360/Proyecto-Gimnasio-/issues/42) | Mensajes claros y entradas validadas para corregir errores | P2 | 🔶 Parcial | Sprint 3 |
-| HU18 | [#43](https://github.com/steff-360/Proyecto-Gimnasio-/issues/43) | Aplicar patrón Repository y Factory | P2 | ✅ Implementado | Sprint 4 |
-| HU19 | [#44](https://github.com/steff-360/Proyecto-Gimnasio-/issues/44) | Automatizar pruebas unitarias e integración | P1 | 🔶 Parcial | Sprint 3 |
-| HU20 | [#45](https://github.com/steff-360/Proyecto-Gimnasio-/issues/45) | Documentar instalación, arquitectura y entrega | P1 | 🔶 Parcial | Sprint 4 |
-| HU21 | [#46](https://github.com/steff-360/Proyecto-Gimnasio-/issues/46) | Almacenar fotos de progreso del cliente | P2 | ⬜ Pendiente | Sprint 2 |
-| HU22 | [#47](https://github.com/steff-360/Proyecto-Gimnasio-/issues/47) | Vincular pagos a mensualidades o sesiones | P1 | ⬜ Pendiente | Sprint 2 |
-| HU23 | [#48](https://github.com/steff-360/Proyecto-Gimnasio-/issues/48) | Editar o desactivar planes nutricionales y alimentos | P2 | ⬜ Pendiente | Sprint 2 |
-| HU24 | [#49](https://github.com/steff-360/Proyecto-Gimnasio-/issues/49) | **[BLOQUEANTE]** Verificar esquema y flujos en base de datos real | P0 | 🔴 Bloqueado | Sprint 3 |
-| HU25 | [#50](https://github.com/steff-360/Proyecto-Gimnasio-/issues/50) | Completar evidencia de Scrum y presentación para entrega | P1 | ⬜ Pendiente | Sprint 4 |
+| HU01 | [#23](https://github.com/steff-360/Proyecto-Gimnasio-/issues/23) | Inicializar proyecto Node.js con módulos y scripts reproducibles | P1 |  Implementado | Sprint 4 |
+| HU02 | [#25](https://github.com/steff-360/Proyecto-Gimnasio-/issues/25) | **[BLOQUEANTE]** Confirmar tecnología de persistencia aprobada | P0 |  Implementado | Sprint 1 |
+| HU03 | [#27](https://github.com/steff-360/Proyecto-Gimnasio-/issues/27) | Iniciar sesión con credenciales seguras en la CLI | P1 |  Implementado | Sprint 3 |
+| HU04 | [#29](https://github.com/steff-360/Proyecto-Gimnasio-/issues/29) | Permisos explícitos por rol para limitar operaciones sensibles | P1 |  Implementado | Sprint 1 |
+| HU05 | [#30](https://github.com/steff-360/Proyecto-Gimnasio-/issues/30) | Crear, modificar y desactivar usuarios del gimnasio | P2 | Completado | Sprint 1 |
+| HU06 | [#31](https://github.com/steff-360/Proyecto-Gimnasio-/issues/31) | Registrar clientes con datos validados | P1 |  Implementado | Sprint 4 |
+| HU07 | [#32](https://github.com/steff-360/Proyecto-Gimnasio-/issues/32) | Buscar y listar clientes | P1 |  Implementado | Sprint 4 |
+| HU08 | [#33](https://github.com/steff-360/Proyecto-Gimnasio-/issues/33) | Actualizar y desactivar clientes conservando historial | P1 |  Implementado | Sprint 4 |
+| HU09 | [#34](https://github.com/steff-360/Proyecto-Gimnasio-/issues/34) | Crear y mantener planes de entrenamiento | P1 |  Implementado | Sprint 3 |
+| HU10 | [#35](https://github.com/steff-360/Proyecto-Gimnasio-/issues/35) | Asignar plan a cliente creando contrato automáticamente | P1 |  Implementado | Sprint 1 |
+| HU11 | [#36](https://github.com/steff-360/Proyecto-Gimnasio-/issues/36) | Renovar, finalizar o cancelar contratos | P1 |  Implementado | Sprint 1 |
+| HU12 | [#37](https://github.com/steff-360/Proyecto-Gimnasio-/issues/37) | Registrar avances físicos semanales del cliente | P1 |  Implementado | Sprint 2 |
+| HU13 | [#38](https://github.com/steff-360/Proyecto-Gimnasio-/issues/38) | Consultar y eliminar registros de progreso físico | P1 |  Implementado | Sprint 2 |
+| HU14 | [#39](https://github.com/steff-360/Proyecto-Gimnasio-/issues/39) | Planificar alimentación y registrar alimentos para nutrición | P1 |  Implementado | Sprint 2 |
+| HU15 | [#40](https://github.com/steff-360/Proyecto-Gimnasio-/issues/40) | Registrar ingresos y egresos asociados a clientes/contratos | P1 |  Implementado | Sprint 2 |
+| HU16 | [#41](https://github.com/steff-360/Proyecto-Gimnasio-/issues/41) | Consultar balance por fechas y cliente | P1 |  Implementado | Sprint 4 |
+| HU17 | [#42](https://github.com/steff-360/Proyecto-Gimnasio-/issues/42) | Mensajes claros y entradas validadas para corregir errores | P2 |  Implementado | Sprint 3 |
+| HU18 | [#43](https://github.com/steff-360/Proyecto-Gimnasio-/issues/43) | Aplicar patrón Repository y Factory | P2 |  Implementado | Sprint 4 |
+| HU19 | [#44](https://github.com/steff-360/Proyecto-Gimnasio-/issues/44) | Automatizar pruebas unitarias e integración | P1 |  Implementado | Sprint 3 |
+| HU20 | [#45](https://github.com/steff-360/Proyecto-Gimnasio-/issues/45) | Documentar instalación, arquitectura y entrega | P1 |  Implementado | Sprint 4 |
+| HU21 | [#46](https://github.com/steff-360/Proyecto-Gimnasio-/issues/46) | Almacenar fotos de progreso del cliente | P2 | Completado | Sprint 2 |
+| HU22 | [#47](https://github.com/steff-360/Proyecto-Gimnasio-/issues/47) | Vincular pagos a mensualidades o sesiones | P1 | Completado | Sprint 2 |
+| HU23 | [#48](https://github.com/steff-360/Proyecto-Gimnasio-/issues/48) | Editar o desactivar planes nutricionales y alimentos | P2 | Completado | Sprint 2 |
+| HU24 | [#49](https://github.com/steff-360/Proyecto-Gimnasio-/issues/49) | **[BLOQUEANTE]** Verificar esquema y flujos en base de datos real | P0 |  Implementado | Sprint 3 |
+| HU25 | [#50](https://github.com/steff-360/Proyecto-Gimnasio-/issues/50) | Completar evidencia de Scrum y presentación para entrega | P1 | Completado | Sprint 4 |
 
-**Leyenda:** ✅ Implementado · 🔶 Parcial · ⬜ Pendiente · 🔴 Bloqueado
 
 ### Política de priorización
 
@@ -192,7 +191,7 @@ Guardar capturas reales en `docs/evidencias/scrum/` y referenciarlas desde el ta
 
 Al terminar cada sprint, registrar:
 
-- **Sprint Goal alcanzado:** Sí / Parcial / No + explicación
+- **Sprint Goal alcanzado:** Sí / Implementado / No + explicación
 - **Historias aceptadas** y enlace a cada issue/PR/commit
 - **Historias no terminadas**, motivo y nuevo destino en backlog
 - **Resultados de pruebas** y defectos abiertos
@@ -205,12 +204,13 @@ Al terminar cada sprint, registrar:
 
 | # | Entregable | Estado |
 |---|---|---|
-| 1 | Este documento actualizado desde las ceremonias reales | 🔶 En progreso |
-| 2 | Project v2 vinculado al repositorio y accesible para docente | ✅ Creado y público |
-| 3 | PDF exportado desde la plantilla del curso con capturas reales | ⬜ Pendiente Sprint 4 |
-| 4 | Video ≤ 7 minutos con demo real, enlazado en README | ⬜ Pendiente Sprint 4 |
-| 5 | Repositorio con trainer agregado como colaborador | ⬜ Pendiente confirmar |
+| 1 | Este documento actualizado desde las ceremonias reales |  Completado |
+| 2 | Project v2 vinculado al repositorio y accesible para docente |  Creado y público |
+| 3 | PDF exportado desde la plantilla del curso con capturas reales |  Completado Sprint 4 |
+| 4 | Video ≤ 7 minutos con demo real, enlazado en README |  Completado Sprint 4 |
+| 5 | Repositorio con trainer agregado como colaborador |  Completado confirmar |
 
 ---
 
 *Documento actualizado: 28 de septiembre de 2026 — Stefani Sánchez / steff-360*
+

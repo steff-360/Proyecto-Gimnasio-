@@ -6,7 +6,10 @@ body:
   - type: markdown
     attributes:
       value: |
+        ## Proyecto Gimnasio - Historia de Usuario
         Usa esta plantilla para historias que el Product Owner pueda ordenar y aceptar. Una issue no se considera terminada hasta cumplir sus criterios.
+        
+        [Ver Planeación Scrum](../../docs/05_scrum.md) para más contexto sobre los sprints y prioridades.
   - type: input
     id: actor
     attributes:
