@@ -180,7 +180,7 @@ No equivale a pruebas de integración: aún se debe ejecutar el flujo completo c
 - Faltan edición/desactivación de planes nutricionales y administración de alimentos.
 - Faltan cobros automáticos y asociación completa de pagos con mensualidades/sesiones.
 - Faltan pruebas de integración reales con MySQL.
-- Scrum todavía necesita herramienta real, fechas de sprint, tablero, revisiones/retrospectivas y evidencia.
+- Scrum tiene backlog, criterios y calendario prospectivo en `05_scrum.md`; queda crear/vincular el tablero GitHub Projects y capturar las ceremonias reales conforme ocurran.
 - No se ha adjuntado el PDF Scrum según plantilla ni publicado/enlazado el video de máximo 7 minutos.
 - La privacidad del repositorio y la invitación al trainer deben verificarse en GitHub.
 

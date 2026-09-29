@@ -112,7 +112,7 @@ Más detalle en [docs/04_arquitectura.md](docs/04_arquitectura.md) y [docs/03_mo
 - [Pruebas ejecutadas y pendientes](docs/06_pruebas.md)
 - [Guion del video](docs/07_presentacion.md)
 
-**PDF Scrum y video:** pendientes de adjuntar/enlazar. No hay todavía URL de video ni evidencia PDF en este repositorio. La planeación no debe considerarse evidencia Scrum completa hasta registrar herramienta, fechas, revisiones y retrospectivas reales.
+**GitHub Projects:** la configuración propuesta, backlog, fechas de los sprints y Definition of Done están en [docs/05_scrum.md](docs/05_scrum.md). El tablero v2 todavía debe crearse y vincularse cuando haya una sesión GitHub autenticada. Las fechas son prospectivas y no equivalen a evidencia de ceremonias realizadas. **PDF Scrum y video:** siguen pendientes de adjuntar/enlazar; no hay evidencia de retrospectivas reales todavía.
 
 ## Créditos
 
