@@ -176,7 +176,7 @@ No equivale a pruebas de integración: aún se debe ejecutar el flujo completo c
 ## 10. Limitaciones y pendientes de entrega
 
 - La persistencia es MySQL aunque el enunciado exige MongoDB con el driver `mongodb`; solicitar aprobación o migrar antes de entregar.
-- La referencia de fotos no carga ni almacena archivos.
+
 - Faltan edición/desactivación de planes nutricionales y administración de alimentos.
 - Faltan cobros automáticos y asociación completa de pagos con mensualidades/sesiones.
 - Faltan pruebas de integración reales con MySQL.

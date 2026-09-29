@@ -24,4 +24,3 @@ Se observa SRP en la división general por capas y una forma básica de Dependen
 
 `ContratoRepository.crear` bloquea cliente/plan activos y registra la asignación en una transacción. `ContratoRepository.cancelar` bloquea la fila con `FOR UPDATE`, elimina progresos asociados, cambia el estado y confirma o revierte todo conjuntamente. `ContratoRepository.renovar` finaliza el contrato previo y crea el siguiente atómicamente. `ProgresoRepository.crear` bloquea y valida el contrato antes de insertar, impidiendo más de un registro por semana. `FinanzasRepository.registrar` abre una transacción, valida/bloquea el contrato opcional, inserta el movimiento y confirma; ante error hace rollback y libera la conexión.
 
-El campo de foto almacena una ruta/URL como referencia, no gestiona la carga binaria. La persistencia es MySQL, una desviación respecto del requisito original de MongoDB que debe aprobar el docente.
