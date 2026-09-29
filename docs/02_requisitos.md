@@ -36,7 +36,7 @@ Estados: **Implementado**, **Parcial**, **Pendiente**. La presencia de una tabla
 ## Requisitos de organización y entrega
 
 - **Estructura:** hay `src/models`, `domain`, `services`, `repositories`, `config`; faltan `/commands` y `/utils` si se interpretan como carpetas obligatorias.
-- **Documentación:** README y documentos Markdown disponibles; Scrum sin calendario/evidencia completa.
+- **Documentación:** README y documentos Markdown disponibles; planeación Scrum calendarizada hacia adelante, pero GitHub Project aún no creado ni hay evidencia de ceremonias reales.
 - **PDF Scrum:** no está adjunto en el repositorio.
 - **Video de máximo 7 minutos:** no hay video ni enlace publicado.
 - **GitHub privado y trainer como colaborador:** no comprobable desde este workspace; realizarlo en GitHub.
