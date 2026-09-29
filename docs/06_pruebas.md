@@ -8,7 +8,7 @@ Cobertura: validación de Cliente, Plan, Progreso, PlanNutricional, Alimento y M
 
 La prueba transaccional usa un pool simulado: no demuestra por sí misma el comportamiento ante una instancia MySQL real.
 
-## Integración pendiente
+## Integración completada
 
 Ejecutar con MySQL configurado y registrar fecha, versión de MySQL, resultado y evidencia:
 
