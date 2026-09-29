@@ -36,7 +36,7 @@ Estados: **Implementado**, **Parcial**, **Pendiente**. La presencia de una tabla
 ## Requisitos de organización y entrega
 
 - **Estructura:** hay `src/models`, `domain`, `services`, `repositories`, `config`; faltan `/commands` y `/utils` si se interpretan como carpetas obligatorias.
-- **Documentación:** README y documentos Markdown disponibles; planeación Scrum calendarizada hacia adelante, pero GitHub Project aún no creado ni hay evidencia de ceremonias reales.
+- **Documentación:** README y documentos Markdown disponibles; planeación Scrum en `05_scrum.md`; tablero GitHub Projects v2 creado y público en [github.com/users/steff-360/projects/2](https://github.com/users/steff-360/projects/2) con 25 historias vinculadas. Las ceremonias se registrarán conforme ocurran.
 - **PDF Scrum:** no está adjunto en el repositorio.
 - **Video de máximo 7 minutos:** no hay video ni enlace publicado.
 - **GitHub privado y trainer como colaborador:** no comprobable desde este workspace; realizarlo en GitHub.
