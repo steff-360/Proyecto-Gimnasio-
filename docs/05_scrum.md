@@ -6,7 +6,7 @@ Este es un plan de trabajo **prospectivo**, preparado el 28 de septiembre de 202
 
 Repositorio: [steff-360/Proyecto-Gimnasio-](https://github.com/steff-360/Proyecto-Gimnasio-)
 
-Tablero GitHub Projects: **pendiente de crear porque la sesión disponible no está autenticada**. Añadir aquí la URL real cuando se cree.
+Tablero GitHub Projects: [https://github.com/users/steff-360/projects/2](https://github.com/users/steff-360/projects/2) — público, accesible para docentes y evaluadores.
 
 Plantilla PDF del curso: usar la plantilla oficial del docente; este archivo Markdown es la fuente de contenido, no sustituye el PDF.
 
