@@ -27,10 +27,10 @@ Este repositorio usa **MySQL 8+** y el driver oficial `mysql2`. No usa MongoDB, 
 4. Define la conexión en PowerShell (ajusta usuario y contraseña a tu instancia):
 
    ```powershell
-   $env:DB_HOST="localhost"
+   $env:DB_HOST="127.0.0.1"
    $env:DB_PORT="3306"
-   $env:DB_USER="root"
-   $env:DB_PASSWORD="tu_clave"
+   $env:DB_USER="campus2023"
+   $env:DB_PASSWORD="campus2023"
    $env:DB_NAME="gestion_gimnasio"
    npm start
    ```
