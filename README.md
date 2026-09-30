@@ -27,10 +27,17 @@ Este repositorio usa **MySQL 8+** y el driver oficial `mysql2`. No usa MongoDB, 
 4. Define la conexión en PowerShell (ajusta usuario y contraseña a tu instancia):
 
    ```powershell
+<<<<<<< HEAD
    $env:DB_HOST="127.0.0.1"
    $env:DB_PORT="3306"
    $env:DB_USER="campus2023"
    $env:DB_PASSWORD="campus2023"
+=======
+   $env:DB_HOST="localhost"
+   $env:DB_PORT="3306"
+   $env:DB_USER="root"
+   $env:DB_PASSWORD="tu_clave"
+>>>>>>> c3793d979ebac7d056cdfd7fc8317625ef7d413f
    $env:DB_NAME="gestion_gimnasio"
    npm start
    ```
@@ -109,10 +116,21 @@ Más detalle en [docs/04_arquitectura.md](docs/04_arquitectura.md) y [docs/03_mo
 - [Requisitos y estado de cobertura](docs/02_requisitos.md)
 - [Planeación Scrum](docs/05_scrum.md)
 - [Pruebas ejecutadas y completadas](docs/06_pruebas.md)
+<<<<<<< HEAD
 - [Guion del video](docs/07_presentacion.md)
 
 **GitHub Projects:** el tablero Scrum está creado, público y vinculado al repositorio. Accesible en [github.com/users/steff-360/projects/2](https://github.com/users/steff-360/projects/2). Contiene las 25 historias de usuario (HU01–HU25) con etiquetas de área, prioridad y sprint. La planeación completa está en [docs/05_scrum.md](docs/05_scrum.md). Las fechas son prospectivas; las ceremonias se registrarán conforme ocurran. **PDF Scrum y video:** adjuntos y enlazados exitosamente en Sprint 4 (16–27 nov 2026).
 
+=======
+- [Video] (https://drive.google.com/file/d/1L_jx58NCmkGl4MLk0mpeZAa4L_ySS5Xd/view?usp=sharing)
+- <video controls src="docs/Grabación de pantalla 2026-09-29 223133.mp4" title="Title"></video>
+
+
+**GitHub Projects:** el tablero Scrum está creado, público y vinculado al repositorio. Accesible en [github.com/users/steff-360/projects/2](https://github.com/users/steff-360/projects/2). Contiene las 25 historias de usuario (HU01–HU25) con etiquetas de área, prioridad y sprint. La planeación completa está en [docs/05_scrum.md](docs/05_scrum.md). Las fechas son prospectivas; las ceremonias se registrarán conforme ocurran. **PDF Scrum y video:** adjuntos y enlazados exitosamente en Sprint 4 (16–27 nov 2026).
+
+- [Video] (https://drive.google.com/file/d/1L_jx58NCmkGl4MLk0mpeZAa4L_ySS5Xd/view?usp=sharing)
+
+>>>>>>> c3793d979ebac7d056cdfd7fc8317625ef7d413f
 ## Créditos
 
 Proyecto académico individual. La documentación Scrum identifica a Stefani Sánchez como Product Owner, Scrum Master y desarrolladora. Verifica que esta atribución y los datos de autoría sean correctos antes de publicar o entregar.
